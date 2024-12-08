@@ -13,7 +13,7 @@ public class BotInfoController {
     public Map<String, String> info() {
         Map<String, String> map = new HashMap<String, String>();
         map.put("botName", "Kob");
-        map.put("botVersion", "1.0.0");
+        map.put("botRating", "1800");
         return map;
     }
 }
